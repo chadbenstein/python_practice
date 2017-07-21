@@ -11,6 +11,6 @@
 
 #def century_year(current_year):
 #    years_until_century = century - user_years
-#    print (user_request)*("Alright " + user_name + ". You'll be 100 years old in " + str(years_until_century) + " years. The year will be " ((current_year) + years_until_century)
+#    print (user_request)*("Alright " + user_name + ". You'll be 100 years old in " + str(years_until_century) + " years. The year will be " ((current_year) + (years_until_century)) + "! /n")
 #    return
 #century_year(2017)
