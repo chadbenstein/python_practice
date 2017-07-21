@@ -10,11 +10,15 @@ a_list = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 #2. Write this in one line of Python
 #3. Ask the user for a number and return a list that contains only elements from the original list "a" that are smaller than that number given by the user.
 
+b_list = []
+
+num = int(raw_input("Pick a number: ")
+
 for element in a_list:
-    x = []
-    if element < 5:
+    if element < num:
+        b_list.append(element)
 
-
+print b_list
 
 
 
