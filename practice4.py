@@ -9,12 +9,12 @@
 def divisor_check():
     divisee = int(raw_input("Pick any number. Any! And I'll tell you what numbers divide evenly into it: ")) #variable to store user request
     new_list = []
-    #i = 1
-    #while i <= divisee:
-    #    if divisee%i == 0:
-    #        new_list.append(i)
-    #    i += 1
-    #return new_list
+    i = 1 #start count at 1. can't divide by 0
+    while i <= divisee: #keep dividing by i for all values less than user input
+        if divisee%i == 0:
+            new_list.append(i) #only return values that are perfectly divisible
+        i += 1 #increase the index by one, test again
+    return new_list
 
     
 
